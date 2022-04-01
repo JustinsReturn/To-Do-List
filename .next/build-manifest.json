@@ -29,6 +29,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/post/[pid]/[comment].js"
+    ],
+    "/post/[pid]/[comment]/[...slug]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/post/[pid]/[comment]/[...slug].js"
     ]
   },
   "ampFirstPages": []

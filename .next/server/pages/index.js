@@ -8,8 +8,8 @@
  */
 (() => {
 var exports = {};
-exports.id = "pages/post/[pid]/[comment]";
-exports.ids = ["pages/post/[pid]/[comment]"];
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
 exports.modules = {
 
 /***/ "./components/header.js":
@@ -111,14 +111,14 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));
 
 /***/ }),
 
-/***/ "./pages/post/[pid]/[comment]/index.js":
-/*!*********************************************!*\
-  !*** ./pages/post/[pid]/[comment]/index.js ***!
-  \*********************************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/header */ \"./components/header.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst Comment = ()=>{\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    const { pid , comment  } = router.query;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/justin/Desktop/To-Do-List/pages/post/[pid]/[comment]/index.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Post: \",\n                    pid\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/justin/Desktop/To-Do-List/pages/post/[pid]/[comment]/index.js\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Comment: \",\n                    comment\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/justin/Desktop/To-Do-List/pages/post/[pid]/[comment]/index.js\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: [\n                    \"Query Obect: \",\n                    JSON.stringify(router.query)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/justin/Desktop/To-Do-List/pages/post/[pid]/[comment]/index.js\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Comment);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9wb3N0L1twaWRdL1tjb21tZW50XS9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQWtEO0FBQ1g7QUFFdkMsS0FBSyxDQUFDRSxPQUFPLE9BQVMsQ0FBQztJQUNyQixLQUFLLENBQUNDLE1BQU0sR0FBR0Ysc0RBQVM7SUFFeEIsS0FBSyxDQUFDLENBQUMsQ0FBQ0csR0FBRyxHQUFFQyxPQUFPLEVBQUMsQ0FBQyxHQUFHRixNQUFNLENBQUNHLEtBQUs7SUFFckMsTUFBTTs7d0ZBRUROLDBEQUFNOzs7Ozt3RkFDTk8sQ0FBQzs7b0JBQUMsQ0FBTTtvQkFBQ0gsR0FBRzs7Ozs7Ozt3RkFDWkcsQ0FBQzs7b0JBQUMsQ0FBUztvQkFBQ0YsT0FBTzs7Ozs7Ozt3RkFDbkJFLENBQUM7O29CQUFDLENBQWE7b0JBQUNDLElBQUksQ0FBQ0MsU0FBUyxDQUFDTixNQUFNLENBQUNHLEtBQUs7Ozs7Ozs7OztBQUdsRCxDQUFDO0FBRUQsaUVBQWVKLE9BQU8sRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3RvLWRvLWxpc3QvLi9wYWdlcy9wb3N0L1twaWRdL1tjb21tZW50XS9pbmRleC5qcz9jNTU3Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSBcIi4uLy4uLy4uLy4uL2NvbXBvbmVudHMvaGVhZGVyXCI7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcblxuY29uc3QgQ29tbWVudCA9ICgpID0+IHtcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XG5cbiAgY29uc3QgeyBwaWQsIGNvbW1lbnQgfSA9IHJvdXRlci5xdWVyeTtcblxuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8SGVhZGVyIC8+XG4gICAgICA8cD5Qb3N0OiB7cGlkfTwvcD5cbiAgICAgIDxwPkNvbW1lbnQ6IHtjb21tZW50fTwvcD5cbiAgICAgIDxwPlF1ZXJ5IE9iZWN0OiB7SlNPTi5zdHJpbmdpZnkocm91dGVyLnF1ZXJ5KX08L3A+XG4gICAgPC8+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBDb21tZW50O1xuIl0sIm5hbWVzIjpbIkhlYWRlciIsInVzZVJvdXRlciIsIkNvbW1lbnQiLCJyb3V0ZXIiLCJwaWQiLCJjb21tZW50IiwicXVlcnkiLCJwIiwiSlNPTiIsInN0cmluZ2lmeSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/post/[pid]/[comment]/index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/header */ \"./components/header.js\");\n\n\nconst HomePage = ()=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/justin/Desktop/To-Do-List/pages/index.js\",\n                lineNumber: 5,\n                columnNumber: 5\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: \"Welcome to Next.js!\"\n            }, void 0, false, {\n                fileName: \"/Users/justin/Desktop/To-Do-List/pages/index.js\",\n                lineNumber: 6,\n                columnNumber: 5\n            }, undefined)\n        ]\n    }, void 0, true)\n;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HomePage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUF5QztBQUV6QyxLQUFLLENBQUNDLFFBQVE7O3dGQUVURCwwREFBTTs7Ozs7d0ZBQ05FLENBQUc7MEJBQUMsQ0FBbUI7Ozs7Ozs7OztBQUk1QixpRUFBZUQsUUFBUSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdG8tZG8tbGlzdC8uL3BhZ2VzL2luZGV4LmpzP2JlZTciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWRlciBmcm9tIFwiLi4vY29tcG9uZW50cy9oZWFkZXJcIjtcblxuY29uc3QgSG9tZVBhZ2UgPSAoKSA9PiAoXG4gIDw+XG4gICAgPEhlYWRlciAvPlxuICAgIDxkaXY+V2VsY29tZSB0byBOZXh0LmpzITwvZGl2PlxuICA8Lz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWVQYWdlO1xuIl0sIm5hbWVzIjpbIkhlYWRlciIsIkhvbWVQYWdlIiwiZGl2Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/index.js\n");
 
 /***/ }),
 
@@ -319,17 +319,6 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/router");
-
-/***/ }),
-
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -356,10 +345,10 @@ module.exports = require("react/jsx-dev-runtime");
 ;
 
 // load runtime
-var __webpack_require__ = require("../../../webpack-runtime.js");
+var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/post/[pid]/[comment]/index.js"));
+var __webpack_exports__ = (__webpack_exec__("./pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
